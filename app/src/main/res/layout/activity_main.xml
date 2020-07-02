@@ -8,45 +8,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.wumeng.customview.CustomTitleView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:titleText="3712"
-        app:titleTextSize="40sp"
-        app:titleTextColor="@color/colorPrimary"/>
-
-    <com.wumeng.customview.CustomImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="16dp"
-        app:titleText1="Hello"
-        app:titleTextColor1="@color/colorPrimary"
-        app:titleTextSize1="20sp"
-        app:image1="@drawable/tb"
-        app:imageScaleType1="fillXY"/>
-
-    <com.wumeng.customview.CustomImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="16dp"
-        app:titleText1="HelloHelloHelloHelloHello"
-        app:titleTextColor1="@color/colorPrimary"
-        app:titleTextSize1="20sp"
-        app:image1="@drawable/tb"
-        app:imageScaleType1="fillXY"/>
-
-    <com.wumeng.customview.CustomImageView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="16dp"
-        android:paddingVertical="16dp"
-        app:titleText1="HelloHelloHelloHelloHelloHelloHello"
-        app:titleTextColor1="@color/colorPrimary"
-        app:titleTextSize1="20sp"
-        app:image1="@drawable/tb"
-        app:imageScaleType1="center"/>
+    <com.wumeng.customview.CustomProgressBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="40dp"
+        app:firstColor="@color/colorAccent"
+        app:secondColor="@color/colorPrimary"
+        app:circleWidth="4dp"
+        app:speed="12"/>
 
 </LinearLayout>

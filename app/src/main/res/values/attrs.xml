@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--  自定义View-文本  -->
     <declare-styleable name="CustomTitleView">
         <attr name="titleText" format="string"/>
         <attr name="titleTextSize" format="dimension"/>
         <attr name="titleTextColor" format="color"/>
     </declare-styleable>
 
+    <!--  自定义View-图片  -->
     <declare-styleable name="CustomImageView">
         <attr name="titleText1" format="string"/>
         <attr name="titleTextSize1" format="dimension"/>
@@ -15,5 +18,13 @@
             <enum name="fillXY" value="0"/>
             <enum name="center" value="1"/>
         </attr>
+    </declare-styleable>
+
+    <!--  进度条  -->
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="speed" format="integer"/>
     </declare-styleable>
 </resources>
